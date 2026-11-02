@@ -8,7 +8,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo1.jpg",
         title: "That unforgettable moment",
-        caption: "Write what happened here..."
+        caption: "The Beginning..."
     },
 
     {
@@ -113,14 +113,14 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo16.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Soo gyi thi beech game me..."
     },
 
    {
         type: "image",
         src: "assets/photos/Photo17.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "25 minutes baad hosh aaya, "are game khel rhi thi mai" "
     },
 
    {
@@ -141,14 +141,14 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo20.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Msg nhi aana chahiye😔..."
     },
 
    {
         type: "image",
         src: "assets/photos/Photo21.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Reply nhi dungi😔😔, (Ye sab kiya tumne mere sath)"
     },
 
    {
