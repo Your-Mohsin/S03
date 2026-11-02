@@ -120,7 +120,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo17.jpg",
         title: "One of our best memories",
-        caption: "25 minutes baad hosh aaya", "are game khel rhi thi mai" 
+        caption: "25 minutes baad hosh aaya, ki areww mai to game khel rhi thi." 
     },
 
    {
