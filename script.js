@@ -20,7 +20,7 @@ const memories = [
 
     {
         type: "image",
-        src: "assets/videos/Photo3.jpg",
+        src: "assets/photos/Photo3.jpg",
         title: "A moment worth remembering",
         caption: "Describe this recording here..."
     }
@@ -69,6 +69,14 @@ const finalScreen = document.getElementById("finalScreen");
 
 const image = document.getElementById("memoryImage");
 const video = document.getElementById("memoryVideo");
+
+image.onload = () => {
+    console.log("IMAGE LOADED:", image.src);
+};
+
+image.onerror = () => {
+    console.error("IMAGE FAILED:", image.src);
+};
 
 const counter = document.getElementById("counter");
 const title = document.getElementById("captionTitle");
