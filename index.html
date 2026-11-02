@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +12,11 @@
     <div class="background-glow"></div>
     <div class="stars" id="stars"></div>
 
-    <main class="hero">
+    <!-- PAGE 1: INTRO -->
+    <section class="page hero" id="intro">
         <p class="eyebrow">A COLLECTION OF MEMORIES</p>
 
-        <h1>
-            EVERY GAME<br>
-            HAS A <span>STORY.</span>
-        </h1>
+        <h1>EVERY GAME<br>HAS A <span>STORY.</span></h1>
 
         <p class="subtitle">Two games. Countless memories.</p>
 
@@ -26,7 +25,44 @@
         </button>
 
         <p class="footer">MADE OF MOMENTS THAT MATTER</p>
-    </main>
+    </section>
+
+    <!-- PAGE 2: MEMORY GALLERY -->
+    <section class="page gallery hidden" id="gallery">
+
+        <p class="eyebrow">A JOURNEY THROUGH TIME</p>
+
+        <p class="counter" id="counter">MEMORY 01</p>
+
+        <div class="media-frame" id="mediaFrame">
+            <img id="memoryImage" src="" alt="Memory">
+            <video id="memoryVideo" controls playsinline></video>
+        </div>
+
+        <div class="caption-area">
+            <h2 id="captionTitle"></h2>
+            <p id="captionText"></p>
+        </div>
+
+        <div class="controls">
+            <button id="prevBtn">← PREVIOUS</button>
+            <button id="nextBtn">NEXT →</button>
+        </div>
+
+    </section>
+
+    <!-- FINAL PAGE -->
+    <section class="page final-screen hidden" id="finalScreen">
+        <p class="eyebrow">BEFORE YOU GO...</p>
+
+        <h1>THE END<span>?</span></h1>
+
+        <p id="finalMessage">
+            Some memories deserve to be lived twice.
+        </p>
+
+        <button id="replayBtn">↻ RELIVE THE MEMORIES</button>
+    </section>
 
     <script src="script.js"></script>
 </body>
