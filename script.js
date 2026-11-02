@@ -1,271 +1,195 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ==================================
+   ADD YOUR MEMORIES HERE
+================================== */
+
+const memories = [
+    {
+        type: "image",
+        src: "assets/photos/photo1.jpg",
+        title: "That unforgettable moment",
+        caption: "Write what happened here..."
+    },
+
+    {
+        type: "image",
+        src: "assets/photos/photo2.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+    {
+        type: "video",
+        src: "assets/videos/video1.mp4",
+        title: "A moment worth remembering",
+        caption: "Describe this recording here..."
+    }
+];
+
+
+/* YOUR FINAL MESSAGE */
+
+const finalMessage = `Some moments may fade with time,
+but the memories we made will always
+have a place worth returning to.`;
+
+
+/* ==================================
+   STARS
+================================== */
+
+const starsContainer = document.getElementById("stars");
+
+for (let i = 0; i < 100; i++) {
+    const star = document.createElement("div");
+    star.classList.add("star");
+
+    star.style.left = Math.random() * 100 + "%";
+    star.style.top = Math.random() * 100 + "%";
+
+    star.style.setProperty("--duration",
+        (2 + Math.random() * 4) + "s");
+
+    star.style.setProperty("--move-duration",
+        (5 + Math.random() * 10) + "s");
+
+    star.style.animationDelay = Math.random() * 5 + "s";
+
+    starsContainer.appendChild(star);
 }
 
-body {
-    min-height: 100vh;
-    min-height: 100svh;
-    overflow: hidden;
-    background: #05040b;
-    color: white;
-    font-family: Arial, sans-serif;
-    position: relative;
+
+/* ==================================
+   PAGE ELEMENTS
+================================== */
+
+const intro = document.getElementById("intro");
+const gallery = document.getElementById("gallery");
+const finalScreen = document.getElementById("finalScreen");
+
+const image = document.getElementById("memoryImage");
+const video = document.getElementById("memoryVideo");
+
+const counter = document.getElementById("counter");
+const title = document.getElementById("captionTitle");
+const caption = document.getElementById("captionText");
+
+let currentIndex = 0;
+
+
+/* ==================================
+   PAGE NAVIGATION
+================================== */
+
+function showPage(page) {
+    intro.classList.add("hidden");
+    gallery.classList.add("hidden");
+    finalScreen.classList.add("hidden");
+
+    page.classList.remove("hidden");
 }
 
-.background-glow {
-    position: fixed;
-    inset: 0;
-    background:
-        radial-gradient(ellipse at 20% 30%,
-        rgba(69, 35, 145, 0.25), transparent 55%),
-        radial-gradient(ellipse at 80% 70%,
-        rgba(25, 65, 150, 0.23), transparent 55%);
-    animation: glowMove 10s ease-in-out infinite alternate;
-    pointer-events: none;
-}
 
-@keyframes glowMove {
-    from { transform: scale(1); opacity: 0.7; }
-    to { transform: scale(1.15); opacity: 1; }
-}
+/* ENTER BUTTON */
 
-/* STARS */
-.stars {
-    position: fixed;
-    inset: 0;
-    overflow: hidden;
-    pointer-events: none;
-}
-
-.star {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background: white;
-    border-radius: 50%;
-    box-shadow: 0 0 6px 2px rgba(150,160,255,0.6);
-    animation: twinkle var(--duration) ease-in-out infinite alternate,
-               float var(--move-duration) linear infinite;
-}
-
-@keyframes twinkle {
-    from { opacity: 0.2; }
-    to { opacity: 1; }
-}
-
-@keyframes float {
-    from { translate: 0 0; }
-    to { translate: 12px -20px; }
-}
-
-/* COMMON PAGE */
-.page {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    height: 100vh;
-    height: 100svh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 24px;
-    animation: fadeIn 1s ease;
-}
-
-.hidden {
-    display: none !important;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(15px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.eyebrow {
-    font-size: 10px;
-    letter-spacing: 5px;
-    color: #aaa5c9;
-    margin-bottom: 25px;
-}
-
-h1 {
-    font-size: clamp(35px, 8vw, 65px);
-    line-height: 1.15;
-    letter-spacing: 2px;
-    font-weight: 800;
-}
-
-h1 span {
-    background: linear-gradient(90deg, #a78bfa, #69a8ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.subtitle {
-    color: #aaa8bd;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin-top: 22px;
-}
-
-button {
-    padding: 15px 22px;
-    border: 1px solid rgba(174,151,255,0.5);
-    border-radius: 3px;
-    background: rgba(100,75,170,0.12);
-    color: white;
-    font-size: 10px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-button:hover {
-    background: rgba(115,90,200,0.3);
-    box-shadow: 0 0 25px rgba(120,100,255,0.3);
-    transform: translateY(-3px);
-}
-
-.hero > button {
-    margin-top: 45px;
-}
-
-.footer {
-    position: absolute;
-    bottom: 25px;
-    color: #656176;
-    font-size: 8px;
-    letter-spacing: 3px;
-}
-
-/* GALLERY */
-.gallery {
-    justify-content: center;
-    gap: 15px;
-}
-
-.gallery .eyebrow {
-    margin-bottom: 0;
-}
-
-.counter {
-    font-size: 10px;
-    letter-spacing: 3px;
-    color: #a99ad8;
-}
-
-.media-frame {
-    width: min(90%, 650px);
-    height: min(55vh, 520px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    overflow: hidden;
-    background: rgba(255,255,255,0.035);
-    border: 1px solid rgba(174,151,255,0.18);
-}
-
-.media-frame img,
-.media-frame video {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: none;
-}
-
-.caption-area {
-    width: min(90%, 600px);
-    min-height: 65px;
-}
-
-.caption-area h2 {
-    font-size: 18px;
-    color: #d6c9ff;
-    margin-bottom: 8px;
-}
-
-.caption-area p {
-    font-size: 13px;
-    line-height: 1.6;
-    color: #aaa8bd;
-}
-
-.controls {
-    width: min(90%, 500px);
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-}
-
-.controls button {
-    min-width: 125px;
-}
-
-/* FINAL SCREEN */
-.final-screen {
-    gap: 25px;
-}
-
-.final-screen h1 {
-    font-size: clamp(45px, 10vw, 75px);
-}
-
-.final-screen p:not(.eyebrow) {
-    max-width: 500px;
-    color: #bcb5d0;
-    font-size: 15px;
-    line-height: 1.8;
-}
-
-/* MOBILE */
-@media (max-width: 480px) {
-    .eyebrow {
-        font-size: 8px;
-        letter-spacing: 3px;
+document.getElementById("enterBtn").addEventListener("click", () => {
+    if (memories.length === 0) {
+        alert("Add your memories first!");
+        return;
     }
 
-    .subtitle {
-        font-size: 12px;
-    }
+    currentIndex = 0;
+    showPage(gallery);
+    showMemory();
+});
 
-    .gallery {
-        gap: 13px;
-        padding: 18px 10px;
-    }
 
-    .media-frame {
-        width: 90%;
-        height: 52vh;
-        height: 52svh;
-    }
+/* ==================================
+   SHOW MEMORY
+================================== */
 
-    .caption-area {
-        width: 90%;
-    }
+function showMemory() {
+    const memory = memories[currentIndex];
 
-    .caption-area h2 {
-        font-size: 16px;
-    }
+    video.pause();
+    video.removeAttribute("src");
+    video.load();
 
-    .caption-area p {
-        font-size: 12px;
-    }
+    image.style.display = "none";
+    video.style.display = "none";
 
-    .controls {
-        width: 90%;
-    }
+    counter.textContent =
+        `MEMORY ${String(currentIndex + 1).padStart(2, "0")} / ${memories.length}`;
 
-    .controls button {
-        min-width: 0;
-        flex: 1;
-        padding: 14px 8px;
-        font-size: 9px;
+    title.textContent = memory.title || "";
+    caption.textContent = memory.caption || "";
+
+    if (memory.type === "video") {
+        video.src = memory.src;
+        video.style.display = "block";
+    } else {
+        image.src = memory.src;
+        image.style.display = "block";
     }
 }
+
+
+/* ==================================
+   NEXT / PREVIOUS
+================================== */
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+    if (currentIndex < memories.length - 1) {
+        currentIndex++;
+        showMemory();
+    } else {
+        showPage(finalScreen);
+    }
+});
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        showMemory();
+    }
+});
+
+
+/* ==================================
+   SWIPE SUPPORT
+================================== */
+
+let touchStartX = 0;
+
+gallery.addEventListener("touchstart", (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+}, { passive: true });
+
+gallery.addEventListener("touchend", (e) => {
+    const touchEndX = e.changedTouches[0].screenX;
+    const difference = touchEndX - touchStartX;
+
+    if (Math.abs(difference) < 60) return;
+
+    // Don't change memory while interacting with video controls
+    if (e.target.closest("video")) return;
+
+    if (difference < 0) {
+        document.getElementById("nextBtn").click();
+    } else {
+        document.getElementById("prevBtn").click();
+    }
+}, { passive: true });
+
+
+/* ==================================
+   FINAL MESSAGE & REPLAY
+================================== */
+
+document.getElementById("finalMessage").textContent = finalMessage;
+
+document.getElementById("replayBtn").addEventListener("click", () => {
+    currentIndex = 0;
+    showPage(gallery);
+    showMemory();
+});
