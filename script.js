@@ -23,7 +23,112 @@ const memories = [
         src: "assets/photos/Photo3.jpg",
         title: "A moment worth remembering",
         caption: "Describe this recording here..."
-    }
+    },
+   
+   {
+        type: "image",
+        src: "assets/photos/Photo4.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo5.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo6.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo7.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo8.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo9.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo10.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo11.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo12.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo13.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo14.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo15.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo16.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo17.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo18.jpg",
+        title: "One of our best memories",
+        caption: "Write your own story here..."
+    },
 ];
 
 
