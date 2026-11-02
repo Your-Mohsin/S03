@@ -48,7 +48,7 @@ const memories = [
 
    {
         type: "image",
-        src: "assets/photos/Photo7.jpg",
+        src: "assets/photos/Photo15.jpg",
         title: "One of our best memories",
         caption: "Write your own story here..."
     },
@@ -104,9 +104,9 @@ const memories = [
 
    {
         type: "image",
-        src: "assets/photos/Photo15.jpg",
+        src: "assets/photos/Photo7.jpg",
         title: "One of our best memories",
-        caption: ""
+        caption: "Haan, ye mai😒😒"
     },
 
    {
@@ -239,7 +239,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo10.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "This u again😂😂"
     }
 ];
 
