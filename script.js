@@ -77,7 +77,7 @@ image.onload = () => {
 image.onerror = () => {
     console.error("IMAGE FAILED:", image.src);
 };
-
+const mediaFrame = document.getElementById("mediaFrame");
 const counter = document.getElementById("counter");
 const title = document.getElementById("captionTitle");
 const caption = document.getElementById("captionText");
