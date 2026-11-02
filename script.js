@@ -246,9 +246,19 @@ const memories = [
 
 /* YOUR FINAL MESSAGE */
 
-const finalMessage = `Some moments may fade with time,
-but the memories we made will always
-have a place worth returning to.`;
+const finalMessage = `Funny how it all started on just another random day.
+Two people who barely knew each other, somehow ended up collecting all these memories.
+Didn't plan it, didn't expect it. It just happened.
+
+Itna majestic, kind-hearted, good, aura farmer, humble(debatable), intelligent, elite humour, charismatic, cool, rare personality dost mila tumko.
+
+Well, that's a lot of memories.
+Honestly, I don't know how we managed to create so many memories while being you the absolute idiot most of the time.
+Bohot si cheeze h tumhare andr jo kaafi achi h jaise bahes Krna, mere se agree na Krna, choti choti baaton pe gussa ho jana, 4 DIN TAK IGNORE KRNA (aur bhi zyada ho skta)
+
+Khair, count your blessings I'm one of them.
+
+Well jokes aside, I'm glad that random day happened.🙃`;
 
 
 /* ==================================
