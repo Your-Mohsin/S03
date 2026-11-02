@@ -6,21 +6,21 @@
 const memories = [
     {
         type: "image",
-        src: "assets/photos/photo1.jpg",
+        src: "assets/photos/Photo1.jpg",
         title: "That unforgettable moment",
         caption: "Write what happened here..."
     },
 
     {
         type: "image",
-        src: "assets/photos/photo2.jpg",
+        src: "assets/photos/Photo2.jpg",
         title: "One of our best memories",
         caption: "Write your own story here..."
     },
 
     {
         type: "video",
-        src: "assets/videos/video1.mp4",
+        src: "assets/videos/Photo3.jpg",
         title: "A moment worth remembering",
         caption: "Describe this recording here..."
     }
