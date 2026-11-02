@@ -268,4 +268,11 @@ button:hover {
         padding: 14px 8px;
         font-size: 9px;
     }
+    /* Landscape photo frame */
+.media-frame.landscape {
+    width: min(95%, 900px);
+    height: auto;
+    aspect-ratio: 16 / 9;
+    max-height: 55vh;
+}
 }
