@@ -160,14 +160,14 @@ const memories = [
 
    {
         type: "video",
-        src: "assets/videos/Video1.mp4",
+        src: "assets/video/Video1.mp4",
         title: "One of our best memories",
         caption: "Write your own story here..."
     },
 
    {
         type: "video",
-        src: "assets/videos/Video2.mp4",
+        src: "assets/video/Video2.mp4",
         title: "One of our best memories",
         caption: "Write your own story here..."
     },
