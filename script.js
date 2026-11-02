@@ -107,28 +107,7 @@ const memories = [
         src: "assets/photos/Photo15.jpg",
         title: "One of our best memories",
         caption: "Write your own story here..."
-    },
-
-   {
-        type: "image",
-        src: "assets/photos/Photo16.jpg",
-        title: "One of our best memories",
-        caption: "Write your own story here..."
-    },
-
-   {
-        type: "image",
-        src: "assets/photos/Photo17.jpg",
-        title: "One of our best memories",
-        caption: "Write your own story here..."
-    },
-
-   {
-        type: "image",
-        src: "assets/photos/Photo18.jpg",
-        title: "One of our best memories",
-        caption: "Write your own story here..."
-    },
+    }
 ];
 
 
