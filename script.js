@@ -19,7 +19,7 @@ const memories = [
     },
 
     {
-        type: "video",
+        type: "image",
         src: "assets/videos/Photo3.jpg",
         title: "A moment worth remembering",
         caption: "Describe this recording here..."
