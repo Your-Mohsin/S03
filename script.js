@@ -136,9 +136,19 @@ function showMemory() {
         video.src = memory.src;
         video.style.display = "block";
     } else {
-        image.src = memory.src;
-        image.style.display = "block";
-    }
+    image.onload = () => {
+        if (image.naturalWidth > image.naturalHeight) {
+            mediaFrame.classList.add("landscape");
+        } else {
+            mediaFrame.classList.remove("landscape");
+        }
+    };
+
+    mediaFrame.classList.remove("landscape");
+
+    image.src = memory.src;
+    image.style.display = "block";
+}
 }
 
 
