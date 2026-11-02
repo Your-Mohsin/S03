@@ -15,14 +15,14 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo2.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Are waah, best saviour"
     },
 
     {
         type: "image",
         src: "assets/photos/Photo3.jpg",
         title: "A moment worth remembering",
-        caption: "Describe this recording here..."
+        caption: "Dino event me..."
     },
    
    {
@@ -43,7 +43,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo6.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Tumhare helmet ka glitch, LOL."
     },
 
    {
@@ -57,14 +57,14 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo8.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo9.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Wow kya drawing skills h, impressive"
     },
 
    {
@@ -78,35 +78,35 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo11.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "😎"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo12.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo13.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo14.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Character dekho aur uska helmet dekho. "
     },
 
    {
         type: "image",
         src: "assets/photos/Photo15.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
@@ -120,7 +120,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo17.jpg",
         title: "One of our best memories",
-        caption: "25 minutes baad hosh aaya, ki areww mai to game khel rhi thi." 
+        caption: "25 minutes baad hosh aaya" 
     },
 
    {
@@ -134,7 +134,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo19.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Bhoolna nhi"
     },
 
    {
@@ -155,7 +155,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo22.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Bure bhi h hum, sahi h😔"
     },
 
    {
@@ -176,63 +176,63 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo23.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo24.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Beizzatii😔..."
     },
 
    {
         type: "image",
         src: "assets/photos/Photo25.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Ye dekkkho😔😔😔😔"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo26.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo27.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "👏👏"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo28.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo29.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "."
     },
 
    {
         type: "image",
         src: "assets/photos/Photo30.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "Ye jab pan fight me hara diya tha tumne hme, buri trah se😔😔"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo31.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "LOLLL"
     },
 
    {
