@@ -27,14 +27,14 @@ const memories = [
    
    {
         type: "image",
-        src: "assets/photos/Photo4.jpg",
+        src: "assets/photos/Photo8.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
         type: "image",
-        src: "assets/photos/Photo5.jpg",
+        src: "assets/photos/Photo32.jpg",
         title: "One of our best memories",
         caption: "Write your own story here..."
     },
@@ -55,9 +55,9 @@ const memories = [
 
    {
         type: "image",
-        src: "assets/photos/Photo8.jpg",
+        src: "assets/photos/Photo4.jpg",
         title: "One of our best memories",
-        caption: ""
+        caption: "👏"
     },
 
    {
@@ -69,9 +69,9 @@ const memories = [
 
    {
         type: "image",
-        src: "assets/photos/Photo10.jpg",
+        src: "assets/photos/Photo5.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: "This you😂😂"
     },
 
    {
@@ -237,7 +237,7 @@ const memories = [
 
    {
         type: "image",
-        src: "assets/photos/Photo32.jpg",
+        src: "assets/photos/Photo10.jpg",
         title: "One of our best memories",
         caption: "Write your own story here..."
     }
