@@ -148,7 +148,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo21.jpg",
         title: "One of our best memories",
-        caption: "Reply nhi dungi😔😔, (Ye sab kiya tumne mere sath)"
+        caption: "Reply nhi dungi😔😔, Ye sab kiya tumne mere sath"
     },
 
    {
