@@ -350,9 +350,10 @@ function showMemory() {
     caption.textContent = memory.caption || "";
 
     if (memory.type === "video") {
-        video.src = memory.src;
-        video.style.display = "block";
-    } else {
+    video.src = memory.src;
+    video.style.display = "block";
+    video.load();
+} else {
     image.onload = () => {
         if (image.naturalWidth > image.naturalHeight) {
             mediaFrame.classList.add("landscape");
