@@ -15,7 +15,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo2.jpg",
         title: "One of our best memories",
-        caption: "Are waah, best saviour"
+        caption: "Best saviour"
     },
 
     {
@@ -28,42 +28,42 @@ const memories = [
    {
         type: "image",
         src: "assets/photos/Photo8.jpg",
-        title: "One of our best memories",
+        title: "A moment worth remembering",
         caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo32.jpg",
-        title: "One of our best memories",
-        caption: "Write your own story here..."
+        title: "A moment worth remembering",
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo6.jpg",
-        title: "One of our best memories",
-        caption: "Tumhare helmet ka glitch, LOL."
+        title: "A moment worth remembering",
+        caption: "Helmet ka glitch, LOL."
     },
 
    {
         type: "image",
         src: "assets/photos/Photo15.jpg",
-        title: "One of our best memories",
-        caption: "Write your own story here..."
+        title: "A moment worth remembering",
+        caption: ""
     },
 
    {
         type: "image",
         src: "assets/photos/Photo4.jpg",
-        title: "One of our best memories",
+        title: "A moment worth remembering",
         caption: "👏"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo9.jpg",
-        title: "One of our best memories",
+        title: "A moment worth remembering",
         caption: "Wow kya drawing skills h, impressive"
     },
 
@@ -71,7 +71,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo5.jpg",
         title: "One of our best memories",
-        caption: "This you😂😂"
+        caption: "This is you btw"
     },
 
    {
@@ -91,7 +91,7 @@ const memories = [
    {
         type: "image",
         src: "assets/photos/Photo13.jpg",
-        title: "One of our best memories",
+        title: "A moment worth remembering",
         caption: ""
     },
 
@@ -106,28 +106,28 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo7.jpg",
         title: "One of our best memories",
-        caption: "Haan, ye mai😒😒"
+        caption: "😒😒"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo16.jpg",
         title: "One of our best memories",
-        caption: "Soo gyi thi beech game me..."
+        caption: "👏"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo17.jpg",
         title: "One of our best memories",
-        caption: "25 minutes baad hosh aaya" 
+        caption: "👏👏" 
     },
 
    {
         type: "image",
         src: "assets/photos/Photo18.jpg",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
@@ -141,35 +141,56 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo20.jpg",
         title: "One of our best memories",
-        caption: "Msg nhi aana chahiye😔..."
+        caption: "😔..."
     },
 
    {
         type: "image",
         src: "assets/photos/Photo21.jpg",
         title: "One of our best memories",
-        caption: "Reply nhi dungi😔😔, Ye sab kiya tumne mere sath"
+        caption: "Ye sab kiya tumne mere sath😔😔"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo22.jpg",
         title: "One of our best memories",
-        caption: "Bure bhi h hum, sahi h😔"
+        caption: "Sahi h😔"
     },
 
    {
         type: "video",
         src: "assets/video/Video1.mp4",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo33.jpg",
+        title: "One of our best memories",
+        caption: ""
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo34.jpg",
+        title: "One of our best memories",
+        caption: "👍"
+    },
+
+   {
+        type: "image",
+        src: "assets/photos/Photo35.jpg",
+        title: "One of our best memories",
+        caption: ""
     },
 
    {
         type: "video",
         src: "assets/video/Video2.mp4",
         title: "One of our best memories",
-        caption: "Write your own story here..."
+        caption: ""
     },
 
    {
@@ -218,14 +239,14 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo29.jpg",
         title: "One of our best memories",
-        caption: "."
+        caption: "👏"
     },
 
    {
         type: "image",
         src: "assets/photos/Photo30.jpg",
         title: "One of our best memories",
-        caption: "Ye jab pan fight me hara diya tha tumne hme, buri trah se😔😔"
+        caption: "Ye jab pan fight me hara diya tha tumne hme"
     },
 
    {
@@ -239,7 +260,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo10.jpg",
         title: "One of our best memories",
-        caption: "This u again😂😂"
+        caption: "Twins😂😂"
     }
 ];
 
@@ -247,18 +268,20 @@ const memories = [
 /* YOUR FINAL MESSAGE */
 
 const finalMessage = `Funny how it all started on just another random day.
-Two people who barely knew each other, somehow ended up collecting all these memories.
+
+Two people who barely knew each other somehow ended up becoming good friends (meri taraf se toh at least).
+
 Didn't plan it, didn't expect it. It just happened.
 
-Itna majestic, kind-hearted, good, aura farmer, humble(debatable), intelligent, elite humour, charismatic, cool, rare personality dost mila tumko.
+Itna achha, kind-hearted, humble dost mila tumko. Count your blessings. I'm one of them. Honestly, I don't know how we managed to create so many memories while you were being an absolute idiot most of the time.
 
-Well, that's a lot of memories.
-Honestly, I don't know how we managed to create so many memories while being you the absolute idiot most of the time.
-Bohot si cheeze h tumhare andr jo kaafi achi h jaise bahes Krna, mere se agree na Krna, choti choti baaton pe gussa ho jana, 4 DIN TAK IGNORE KRNA (aur bhi zyada ho skta)
+Tum bhi achhi ho, jaise 4 din tak ignore karna, dost na maanna, wagaira.
 
-Khair, count your blessings I'm one of them.
+Well, jokes aside, I'm glad that random day happened.
 
-Well jokes aside, I'm glad that random day happened.🙃`;
+Stay happy, stay healthy, and keep smiling. You're genuinely a good person. Never lose that part of yourself. I hope you always have good people around you. 🙃
+
+HAPPY BIRTHDAY 🍫`;
 
 
 /* ==================================
