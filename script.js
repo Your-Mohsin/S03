@@ -55,13 +55,6 @@ const memories = [
 
    {
         type: "image",
-        src: "assets/photos/Photo4.jpg",
-        title: "A moment worth remembering",
-        caption: "👏"
-    },
-
-   {
-        type: "image",
         src: "assets/photos/Photo9.jpg",
         title: "A moment worth remembering",
         caption: "Wow kya drawing skills h, impressive"
