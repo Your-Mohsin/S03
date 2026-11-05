@@ -180,6 +180,13 @@ const memories = [
     },
 
    {
+        type: "image",
+        src: "assets/photos/Photo36.jpg",
+        title: "A moment worth remembering",
+        caption: "👏"
+    },
+
+   {
         type: "video",
         src: "assets/video/Video2.mp4",
         title: "One of our best memories",
