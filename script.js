@@ -8,14 +8,14 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo1.jpg",
         title: "That unforgettable moment",
-        caption: "The Beginning..."
+        caption: "The Beginning😛..."
     },
 
     {
         type: "image",
         src: "assets/photos/Photo2.jpg",
         title: "One of our best memories",
-        caption: "Best saviour"
+        caption: "Best saviour👏"
     },
 
     {
@@ -141,7 +141,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo21.jpg",
         title: "One of our best memories",
-        caption: "Ye sab kiya tumne mere sath😔😔"
+        caption: "😔😔"
     },
 
    {
@@ -277,11 +277,15 @@ Itna achha, kind-hearted, humble dost mila tumko. Count your blessings. I'm one 
 
 Tum bhi achhi ho, jaise 4 din tak ignore karna, dost na maanna, wagaira.
 
-Well, jokes aside, I'm glad that random day happened.
+Well, jokes aside, I'm glad that random day happened. Aur ye sab jo ss h jisme tumne bola, wo hmne aise hi lgaye h mai kuch bura nhi maan rha unka.
 
+Haan hmne tumko bohot bura bola h jaane anjaane me jo ki bohot h glt h uske liye genuinely sorry,
+aur aisa mat sochna harr baar ka rhta mera ulta seedha bolne ka but kasam se mera koi intention nhi rhta ki tumko bura hi lge. Hum kasam se koi bure aur manipulative type ke insaan nhi h. Meri baaton se dusron ko bura na lge.
+
+And I'll always be grateful to have you as my friend.
 Stay happy, stay healthy, and keep smiling. You're genuinely a good person. Never lose that part of yourself. I hope you always have good people around you. 🙃
 
-HAPPY BIRTHDAY 🍫`;
+HAPPY BIRTHDAY SAFA🍫`;
 
 
 /* ==================================
