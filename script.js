@@ -246,7 +246,7 @@ const memories = [
         type: "image",
         src: "assets/photos/Photo30.jpg",
         title: "One of our best memories",
-        caption: "Ye jab pan fight me hara diya tha tumne hme"
+        caption: "Remember??? :)"
     },
 
    {
@@ -432,11 +432,7 @@ document.getElementById("prevBtn").addEventListener("click", () => {
    SWIPE SUPPORT
 ================================== */
 
-let touchStartX = 0;
 
-gallery.addEventListener("touchstart", (e) => {
-    touchStartX = e.changedTouches[0].screenX;
-}, { passive: true });
 
 gallery.addEventListener("touchend", (e) => {
     const touchEndX = e.changedTouches[0].screenX;
