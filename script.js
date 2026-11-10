@@ -94,6 +94,13 @@ const memories = [
         title: "One of our best memories",
         caption: "Character dekho aur uska helmet dekho. "
     },
+   
+   {
+        type: "video",
+        src: "assets/video/Video3.mp4",
+        title: "One of our best memories",
+        caption: "Hahaha"
+    },
 
    {
         type: "image",
@@ -153,9 +160,9 @@ const memories = [
 
    {
         type: "video",
-        src: "assets/video/Video1.mp4",
+        src: "assets/video/Video4.mp4",
         title: "One of our best memories",
-        caption: ""
+        caption: "LMAO...xD"
     },
 
    {
@@ -170,6 +177,13 @@ const memories = [
         src: "assets/photos/Photo34.jpg",
         title: "One of our best memories",
         caption: "👍"
+    },
+      
+   {
+        type: "image",
+        src: "assets/photos/Photo38.jpg",
+        title: "A moment worth remembering",
+        caption: "Maazaaakk..."
     },
 
    {
