@@ -297,7 +297,7 @@ Haan hmne tumko bohot bura bola h jaane anjaane me jo ki bohot glt h uske liye g
 aur aisa mat sochna harr baar ka rhta mera ulta seedha bolne ka but kasam se mera koi intention nhi rhta ki tumko bura lge.
 
 And I'll always be grateful to have you as my friend.
-Stay happy, stay healthy, and keep smiling. You're genuinely a good person. Never lose that part of yourself. I hope you always have good people around you. 🙃(Take this msg seriously)
+Stay happy, stay healthy, and keep smiling. You're genuinely a good person. Never lose that part of yourself. I hope you always have good people around you. 🙃
 
 HAPPY BIRTHDAY SAFA🍫`;
 
