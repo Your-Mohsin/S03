@@ -294,10 +294,10 @@ Tum bhi achhi ho, jaise 4 din tak ignore karna, dost na maanna, wagaira.
 Well, jokes aside, I'm glad that random day happened. Aur ye sab jo ss h jisme tumne bola, wo hmne aise hi lgaye h mai kuch bura nhi maan rha unka.
 
 Haan hmne tumko bohot bura bola h jaane anjaane me jo ki bohot glt h uske liye genuinely sorry,
-aur aisa mat sochna harr baar ka rhta mera ulta seedha bolne ka but kasam se mera koi intention nhi rhta ki tumko bura lge. Hum kasam se koi bure aur manipulative type ke insaan nhi h. Meri baaton se dusron ko bura na lge bas.
+aur aisa mat sochna harr baar ka rhta mera ulta seedha bolne ka but kasam se mera koi intention nhi rhta ki tumko bura lge.
 
 And I'll always be grateful to have you as my friend.
-Stay happy, stay healthy, and keep smiling. You're genuinely a good person. Never lose that part of yourself. I hope you always have good people around you. 🙃
+Stay happy, stay healthy, and keep smiling. You're genuinely a good person. Never lose that part of yourself. I hope you always have good people around you. 🙃(Take this msg seriously)
 
 HAPPY BIRTHDAY SAFA🍫`;
 
