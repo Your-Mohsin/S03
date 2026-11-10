@@ -97,7 +97,7 @@ const memories = [
    
    {
         type: "video",
-        src: "assets/video/Video3.mp4",
+        src: "assets/video/video3.mp4",
         title: "One of our best memories",
         caption: "Hahaha"
     },
