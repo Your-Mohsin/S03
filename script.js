@@ -287,7 +287,7 @@ Two people who barely knew each other somehow ended up becoming good friends (me
 
 Didn't plan it, didn't expect it. It just happened.
 
-Itna achha, kind-hearted, humble dost mila tumko. Count your blessings. I'm one of them. Honestly, I don't know how we managed to create so many memories while you were being an absolute idiot most of the time.
+Itna achha, kind-hearted, humble dost mila tumko. Count your blessings, I'm one of them. Honestly, I don't know how we managed to create so many memories while you were being an absolute idiot most of the time.
 
 Tum bhi achhi ho, jaise 4 din tak ignore karna, dost na maanna, wagaira.
 
