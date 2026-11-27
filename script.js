@@ -275,6 +275,13 @@ const memories = [
         src: "assets/photos/Photo10.jpg",
         title: "One of our best memories",
         caption: "Twins😂😂"
+    },
+   
+   {
+        type: "video",
+        src: "assets/video/Video5.mp4",
+        title: "One of our best memories",
+        caption: "Lol"
     }
 ];
 
